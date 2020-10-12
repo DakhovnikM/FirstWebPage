@@ -33,7 +33,7 @@
     margin-top: 14px;
 }
 
-h1{
+h1 {
     margin-top: 53px;
 }
 
@@ -87,7 +87,7 @@ h1{
     box-shadow: -1px -1px 0px 0px rgba(0, 0, 0, 0.21);
     font-family: RobotoCondensed;
     font-size: 21px;
-    line-height: 24px;
+    /* line-height: 24px; */
     font-weight: 400;
     text-transform: uppercase;
     color: #ffffff;
@@ -114,4 +114,62 @@ h1{
     width: 30px;
     height: 19px;
     /* background-color: #ffffff */
+}
+
+.waiting {
+    height: 604px;
+    background-color: #efefef;
+    padding: 85px 0 75px 0;
+}
+
+.waiting .waiting_header {
+    font-family: Roboto;
+    font-size: 30px;
+    /* line-height: 12px; */
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #252525;
+    text-align: center;
+}
+
+.waiting .waiting_devider {
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+.waiting .weiting_subheader {
+    font-family: Roboto;
+    font-size: 23px;
+    /* line-height: 20px; */
+    font-weight: 400;
+    color: #4a4a4a;
+    text-align: center;
+    margin-top: 17px;
+}
+
+.waiting .waiting_wrapper {
+    margin-top: 45px;
+}
+
+.waiting .waiting_wrapper .waiting_itom {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px ;
+    width: 339px;
+    text-align: center;
+}
+
+.waiting .waiting_wrapper .waiting_itom .waiting_img{
+    width: 100%;
+}
+
+.waiting .waiting_descr {
+    font-family: Roboto;
+    font-size: 15px;
+    /* font-weight: 300; */
+    color: #4a4a4a;
+    margin-top: 33px;
 }
